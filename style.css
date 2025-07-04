@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+     font-family: "Roboto", sans-serif;
+}
+
+html {
+    background-color: rgb(40, 40, 41)
+}
+
+
+
+
+
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(40, 40, 41);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+     z-index: 1000;
+}
+
+.logo {
+    margin-left: 50px; 
+} 
+.logo img {
+    height: 40px;
+    width: auto;
+}     
+.nav-links {
+    display: flex;
+    list-style: none;
+}   
+.nav-links li {
+    margin: 0 15px;
+}  
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}   
+.nav-links a:hover {
+background-color: #555;
+}       
+.nav-right {
+margin-right: 80px; 
+}  
+.content {
+height: 2000px;
+padding: 20px;
+background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg) center/cover no-repeat;
+    position: relative;
+}
+.header-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3%;
+}
+.header-container h1 {
+    font-size: 100px;
+}
+.header-container h2 {
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+} 
+.header-container a {
+    background: linear-gradient(45deg, #65DAFF, #70FFCB);
+    padding: 30px 80px;   
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+.photos {
+     padding: 100px;
+}
+.photos-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.photos-item {
+    text-align: center;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin: 20px;
+   
+}
+.photos-item img {
+    height: 150px;
+}
+.photos-item p {
+    margin-top: 10px;
+    color: aqua;
+    font-size: 30px;
+}
+
+
+
+
+.play {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    padding-top: 40px;
+    background-color: rgb(40, 40, 41);
+    box-shadow: 0px 0px 25px black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.play-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.play-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: aqua
+}
+.game-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 30px;
+}
+.game-block.reverse {
+    flex-direction: row-reverse;
+}
+.game-info {
+    color: white;
+    padding: 20px;
+    width: 50%;
+}
+.game-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #70FFCB;
+}
+.game-hr {
+    border: 0;
+    height: 2px;
+    background-color: #70FFCB;
+    margin: 15px 0;
+    
+}
+.game-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+.game-image {
+    flex: 1;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+.game-image:hover {
+    transform: scale(1.02);
+}
+
+
+.info {
+    padding: 50px;
+}
+.info-container {
+     max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.info h2 {
+     text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: aqua
+    
+}
+.info p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.server {
+
+}
+.server-container {
+      max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+ box-shadow: 0px 0px 25px black;
+ background-color: rgb(40, 40, 41);
+    box-shadow: 0px 0px 25px black;
+    padding: 30px;
+margin-bottom: 50px;
+}
+.server-content {
+    background-color: #65DAFF;
+    width: 100%;
+    margin-top: 20px;
+    height: 120px;
+    padding: 20px;
+    align-items: center;
+    position: relative;
+}
+.server-content h2 {
+    color: white;
+    font-size: 20px;
+    font-size: 35px;
+    position: absolute;
+    
+     top: 50%;
+    transform: translateY(-50%);
+}
+.server hr {
+    border: 0;
+    height: 3px;
+    background: white;
+    margin: 20px 0;
+    width: 40%;
+    margin: auto;
+   
+}
+.click {
+    color: aqua;
+    margin-bottom: 10px;
+}
+.server-content a {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    float: right;
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 40px;
+   
+}
+
+
+
+
+
+
+
+
